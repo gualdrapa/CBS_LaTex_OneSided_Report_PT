@@ -1,0 +1,10 @@
+\clearpage
+
+\markboth{\textbf{Abstract}}{\textbf{Abstract}}\label{abstract}
+This is the english abstract 
+
+\clearpage
+
+\markboth{\textbf{Zusammenfassung}}{\textbf{Zusammenfassung}}\label{Zusammenfassung}
+Hier kommt die deutsche Zusammenfassung
+

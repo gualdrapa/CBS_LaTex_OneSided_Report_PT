@@ -1,0 +1,42 @@
+\clearpage
+
+%\onehalfspacing
+\chapter{\textbf{Introdução}}\label{intro}
+
+
+
+\section{Background}
+
+\blindtext
+
+\section{Justificação e objectivos do trabalho}
+
+\blindtext
+
+\section{Metodologia de investigação}
+
+\blindtext
+
+\section{Limitações}
+
+\blindtext
+
+\section{Organização do trabalho}
+
+\blindtext
+
+
+
+%\section{Objectivos e motivação}
+%\blindtext
+
+
+
+
+
+
+%\section{Problema e objectivo}\label{objectives}
+
+
+
+\addtocontents{toc}{\vspace{0.8cm}}

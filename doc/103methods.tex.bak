@@ -1,0 +1,106 @@
+\clearpage
+
+\chapter{\textbf{Métodos}}\label{methods}
+
+\section{Inicio de um capítulo}\label{met:chapters}
+In the two-sided layout a new chapter always begins on a right side. Therefore, empty pages will be generated automatically at the end of the previous chapter if necessary. The one-sided layout does not do this. If you want an additional empty page, you have to insert it manually.
+
+\section{Tabelas grandes}\label{met:table}
+Tables are a bit complex to generate in latex, a big help are table generators like: \url{https://www.tablesgenerator.com/} . Small tables fit within the text flow. \\
+\begin{table} [ht]
+    \begin{center}
+    %\centering
+         \caption[Small table]{Material needed for gels
+         }
+\begin{tabular}{|l|C{3cm}|C{3cm}|}
+\hline
+material (conc.) & volume per gel & conc. in gel\\ \hline
+Chemical 1 (40~mg/mL)             & 15~\textmu L     & 3.00~ \textmu g/mL\\ \hline
+TBS                             & 15~\textmu L     & ---\\ \hline
+Chemical 2         & 15~\textmu L     & 3.75~\textmu g/mL\\ \hline
+Chemical 3   & 27.5~\textmu L   & 5.7x10$^5$ cells\\ \hline
+Chemical 4  & 27.5~\textmu L   & 5.7x10$^5$ cells\\ \hline \hline 
+Chemical 5      & 100~\textmu L    & 5.00 mg/mL \\ \hline
+
+        \end{tabular}
+ \label{tabfibrin}
+    \end{center}
+\end{table}
+Bigger tables can be put on separate pages. \\
+
+
+\begin{table} [p] %p makes to table to show up on a separate page. This is useful when the table is really big or two tables should be aligned underneath each other on a separate page.
+
+    \begin{center}
+    \caption[FACS analysis]{A lot of complex columns and rows
+         }
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{2}{|c|}{Tube 1}                                 &                       & \multicolumn{2}{c|}{Tube 2}                                 &  & \multicolumn{2}{c|}{Tube 3}                                 & \multicolumn{1}{c|}{} & \multicolumn{2}{c|}{Tube 4}                                 \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+\multicolumn{1}{|c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} &  & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+AB1   & 20~\textmu L   &    & AB2    & 20~\textmu L  &  & AB3    & 20~\textmu L    &     & AB4      &20~\textmu L       \\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11}  
+APC   & MSC-   &  & FITC  & MSC- &  & PE   & MSC-  & & PE   & MSC-    \\
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+\multicolumn{1}{|c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} &  & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume}\\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+AB5  & 2~\textmu L   &   & AB6   & 5~\textmu L  &  & AB7   & 5~\textmu L         &    & AB8    & 5~\textmu L    \\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+FITC  & MSC+  &   & APC  & MSC+   &  & \scriptsize{PerCP-Cy5.5}  & MSC+  &  & \scriptsize{PerCP-Cy5.5}  & MSC-       \\ 
+\hline
+\end{tabular}
+ \label{tabfacsmsc}
+    \end{center}
+\end{table}
+
+\begin{table} [p]
+    \begin{center}
+    %\centering
+         \caption[Another list of antibodies]{Some more antibodies for FACS analysis
+         }
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{2}{|c|}{Tube 1}                                 &                       & \multicolumn{2}{c|}{Tube 2}                                 &  & \multicolumn{2}{c|}{Tube 3}                                 & \multicolumn{1}{c|}{} & \multicolumn{2}{c|}{Tube 4}                                 \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+\multicolumn{1}{|c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} &  & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} \\ \cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+AB1   & 20~\textmu L   &    & AB2    & 20~\textmu L  &  & AB3    & 5~\textmu L    &     & AB4      & 5~\textmu L       \\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+FITC   & EC+   &  & FITC  & EC+ &  & FITC   & EC+  & & FITC   & EC-    \\
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+\multicolumn{1}{|c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} &  & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Antibody} & \multicolumn{1}{c|}{Volume}\\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+AB5  & 20~\textmu L   &   & AB6   & 2~\textmu L  &  & AB7   & 20~\textmu L         &    & AB8    & 20~\textmu L    \\ 
+\cline{1-2} \cline{4-5} \cline{7-8} \cline{10-11} 
+APC  & EC-  &   & APC  & EC-   &  & APC  & EC+  &  & APC  & EC+       \\ 
+\hline
+\end{tabular}
+ \label{tabfacsec}
+    \end{center}
+\end{table}
+
+\blindtext
+\section{Isto é uma secção}
+\subsection{Isto é uma subsecção}
+\subsubsection{Isto é uma subsubsecção que não aparece no índice}\label{subsub}
+Here we have some random equations: 
+\begin{equation}\label{Volume}
+V = d^2\cdot \frac{\pi}{4}\cdot L
+\end{equation}
+
+\begin{equation}\label{Surface}
+S = d^2 \cdot \frac{\pi}{4} + \pi \cdot d \cdot L \thickapprox \pi \cdot d \cdot L
+\end{equation}
+
+\begin{equation}\label{Volume1}
+V = \frac{S^2}{\pi ^2 \cdot L^2} \cdot \frac{\pi}{4}\cdot L = \frac{S^2}{4\pi \cdot L}
+\end{equation}
+\begin{equation}\label{Length}
+L = \frac{S^2}{4\pi \cdot V}
+\end{equation}
+
+\begin{equation}\label{stdv}
+ s = \sqrt{\frac{\sum_{i=1}^n (x_i-\bar{x})^2}{(n-1)}}
+\end{equation}
+
+
+
+\addtocontents{toc}{\vspace{0.8cm}}

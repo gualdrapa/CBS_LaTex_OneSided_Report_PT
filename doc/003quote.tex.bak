@@ -1,0 +1,22 @@
+\clearpage
+\thispagestyle{empty}
+
+%\markboth{\textbf{Declaração}}{\textbf{Declaração}}
+%\mbox{}
+%\vspace{1.5cm}\\
+%\noindent 
+
+%\vspace{40mm}
+%\vspace*{\fill}
+\vspace*{30mm}
+\setlength\epigraphwidth{.55\textwidth}
+%\setlength\epigraphrule{0pt}
+
+\epigraph{``All our dreams can come true, if we have the courage to pursue them.''\\ \hfill \textit{Walt Disney}} 
+
+
+
+
+\newpage
+    \thispagestyle{empty}
+    \mbox{}

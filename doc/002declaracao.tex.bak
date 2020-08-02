@@ -1,0 +1,65 @@
+\clearpage
+
+\markboth{\textbf{Declaração}}{\textbf{Declaração}}
+\mbox{}
+\vspace{1.5cm}\\
+\noindent 
+
+Este trabalho foi realizado e escrito pelo autor. Nenhumas outras fontes para além das mencionadas foram usadas.\\
+O autor declara a não existência de conflito de interesses ou outros interesses a declarar.
+
+\vspace{1cm}
+Nome do autor \tab[1.5cm] \rule{40mm}{0.2mm}\\
+\tab[75mm] Assinatura
+
+\vspace{25mm}
+Este trabalho foi enviado por email para:
+
+	\begin{minipage}[t]{13cm}
+		\centering 
+		\begin{tabular}{p{8cm}l}
+			Professor Nome do professor \\
+			email do professor
+%			1. Pr\"{u}fer: & ~Prof. Dr. XXX\\
+%			2. Pr\"{u}fer: & ~Dr. XYZ\\
+	
+		%\renewcommand{\arraystretch}{0.8}
+		%	\begin{tabular}[c]{@{}l@{}}2. Pr\"{u}ferin \\ und Betreuerin:\end{tabular}
+		%	&
+		%\renewcommand{\arraystretch}{0.8}
+		%	\begin{tabular}[c]{@{}l@{}} \\ YYY, M.Sc.\end{tabular}\\
+		%\renewcommand{\arraystretch}{2.0}
+%	        Betreuer: & ZZZ\\
+			
+		\end{tabular}
+	\end{minipage}
+	
+	
+	
+	\vspace{45mm}
+Contactos:
+
+	\begin{minipage}[t]{13cm}
+		\centering 
+		\begin{tabular}{p{6cm}l}
+			Nome do autor\\
+			Email: & Email do autor\\
+			Web: & Webpage do autor, Researchgate, etc.\\
+%			1. Pr\"{u}fer: & ~Prof. Dr. XXX\\
+%			2. Pr\"{u}fer: & ~Dr. XYZ\\
+	
+		%\renewcommand{\arraystretch}{0.8}
+		%	\begin{tabular}[c]{@{}l@{}}2. Pr\"{u}ferin \\ und Betreuerin:\end{tabular}
+		%	&
+		%\renewcommand{\arraystretch}{0.8}
+		%	\begin{tabular}[c]{@{}l@{}} \\ YYY, M.Sc.\end{tabular}\\
+		%\renewcommand{\arraystretch}{2.0}
+%	        Betreuer: & ZZZ\\
+			
+		\end{tabular}
+	\end{minipage}
+
+	\vspace{1.5cm}
+\newpage
+    \thispagestyle{empty}
+    \mbox{}

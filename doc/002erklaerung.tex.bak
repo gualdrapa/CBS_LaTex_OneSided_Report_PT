@@ -1,0 +1,33 @@
+\clearpage
+
+\markboth{\textbf{Erklärung}}{\textbf{Erklärung}}
+\mbox{}
+\vspace{1.5cm}\\
+\noindent Diese Arbeit ist von mir selbstständig angefertigt und verfasst. Es sind keine anderen als die angegebenen Quellen und Hilfsmittel benutzt worden.
+
+\vspace{1cm}
+My name \tab[1.5cm] \rule{40mm}{0.2mm}\\
+\tab[5cm] signature
+
+\vspace{3cm}
+Diese Arbeit wurde betreut von:
+
+	\begin{minipage}[t]{13cm}
+		\centering 
+		\begin{tabular}{p{4cm}l}
+			
+			1. Pr\"{u}fer: & ~Prof. Dr. XXX\\
+			2. Pr\"{u}fer: & ~Dr. XYZ\\
+	
+		%\renewcommand{\arraystretch}{0.8}
+		%	\begin{tabular}[c]{@{}l@{}}2. Pr\"{u}ferin \\ und Betreuerin:\end{tabular}
+		%	&
+		%\renewcommand{\arraystretch}{0.8}
+		%	\begin{tabular}[c]{@{}l@{}} \\ YYY, M.Sc.\end{tabular}\\
+		%\renewcommand{\arraystretch}{2.0}
+	        Betreuer: & ZZZ\\
+			
+		\end{tabular}
+	\end{minipage}
+
+	\vspace{1.5cm}
